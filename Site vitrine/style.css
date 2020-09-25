@@ -1,0 +1,116 @@
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 80vh;
+  /* background-image: url("img/COVOID.png"); */
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+.pres {
+  margin-top: 0px;
+}
+
+.title, .presentation, .ref {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.presentation{
+  margin-top: 0px;
+  width: 50vw;
+  margin: auto;
+}
+
+.ref, .download {
+  width: 50vw;
+  margin: auto;
+}
+.ref img{
+  width: 45%;
+}
+
+
+
+.download {
+  width: auto;
+  margin-top: 400px;
+}
+
+h1 {
+  font-size: 100px;
+  color: red;
+  background: green;
+  width: 110%;;
+  z-index: 1000;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.ref h3 {
+  text-align: right;
+}
+
+.download button {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  height: 100px;
+  width: 350px;
+  border-radius: 100px;
+  outline: none;
+
+}
+
+.download p {
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  font-size: 24px;
+  text-align: justify;
+}
+
+p span {
+  background-color: white;
+  font-weight: bold;
+}
+
+.cvd-picture{
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.coviddiv{
+  width: 100px;
+  height: 100px;
+}
+
+.geldiv{
+  width: 100px;
+  height: 100px;
+}
+
